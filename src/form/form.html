@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html" class="header-brand">BLOG APP</a>
+        <ul>
+          <li><a href="./index.html" class="header-nav">Accueil</a></li>
+          <li>
+            <a href="./form.html" class="header-nav active">Nouveau article</a>
+          </li>
+        </ul>
+      </header>
+      <div class="content">
+        <form action="">
+          <h2 class="title-underline">Ajouter un article</h2>
+          <div class="form-group">
+            <label for="">Auteur</label>
+            <input type="text" name="author" />
+          </div>
+          <div class="form-group">
+            <label for="">Image</label>
+            <input type="text" name="image" />
+          </div>
+          <div class="form-group">
+            <label for="">Titre</label>
+            <input type="text" name="title" />
+          </div>
+          <div class="form-group">
+            <label for="">Categorie</label>
+            <select name="category" id="">
+              <option value="Science">Science</option>
+              <option value="Histoire">Histoire</option>
+              <option value="Sport">Sport</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Article</label>
+            <textarea name="content"></textarea>
+          </div>
+          <ul class="text-error" id="errors">
+              
+          </ul>
+          <div>
+            <button class="btn btn-secondary" type="button">Annuler</button>
+            <button class="btn btn-primary" type="submit">Poster</button>
+          </div>
+        </form>
+      </div>
+      <footer>Blog app &copy by Phfyx</footer>
+    </div>
+  </body>
+</html>

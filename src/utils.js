@@ -1,0 +1,1 @@
+module.exports.URL_API = 'https://restapi.rachidjeffali.dev:8000/api/v1/cda_benomar'
